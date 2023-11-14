@@ -1,4 +1,23 @@
-<h1> Primer endpoint: </h1>
+<h2>Integrantes del grupo:</h2>
+
+Gongora Banegas Daniel / danielbanegas.gongora@gmail.com
+Alonso Ignacio / ignacioalonso05@gmail.com
+ 
+<h2>Temática del TPE:</h2>
+
+Tienda de Videojuegos
+ 
+<h2>Breve descripción de la temática:</h2>
+
+Una tienda virtual que permita ver varios juegos, con un precio, y cada juego pertenece a un género. Podés buscar los juegos individualmente por su nombre, precio, o buscarlos por género.
+ 
+<h2>Diagrama de entidad relación:</h2>
+
+![Diagrama de entidad-relación](https://github.com/KhadaGeno/TPE_WEB2_ENTREGA3/assets/143861134/a1c64371-74ef-4620-b5ab-9e0219a1afe7)
+
+<h1>Documentación</h1>
+
+<h2> Primer endpoint: </h2>
 
 ('productos','GET','ProductosAPIController','getProductos');
 
@@ -13,7 +32,7 @@ ruta_serividor_apache/api/productos?sort=(columna_de_la_tabla)&order=(ASC || DES
 
 Sort indica por qué columna de la tabla se ordenan, y order si lo hacen de forma ascendente o descendente
 
-<h1> Segundo endpoint: </h1>
+<h2> Segundo endpoint: </h2>
 
 ('productos/:ID','GET','ProductosAPIController','getProductosID');
 
@@ -24,7 +43,7 @@ ruta_serividor_apache/api/productos/(ID)
 
 ID tiene que ser el id de uno de los productos en la base de datos
 
-<h1> Tercer endpoint: </h1>
+<h2> Tercer endpoint: </h2>
 
 ('addProducto','POST','ProductosAPIController','addProducto');
 
@@ -44,7 +63,7 @@ Y en Postman hace falta pasarle un objeto JSON por el body, como este:
   }
 ```
 
-<h1> Cuarto endpoint: </h1>
+<h2> Cuarto endpoint: </h2>
 
 ('updateProducto/:ID','PUT','ProductosAPIController','updateProducto');
 
