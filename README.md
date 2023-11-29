@@ -70,7 +70,7 @@ Y en Postman hace falta pasarle un objeto JSON por el body, como este:
 Este endpoint sirve para editar un producto de la base de datos, este producto se selecciona con su id.
 Se usa con el verbo PUT de la siguiente forma:
 
-ruta_serividor_apache/api/productos/(ID)
+ruta_serividor_apache/api/updateProducto/(ID)
 
 ID tiene que ser el id de uno de los productos en la base de datos, y los datos que se van a editar van a ser los del producto con ese id.
 También se necesita tener un JSON en el body de Postman, como con el endpoint anterior:
